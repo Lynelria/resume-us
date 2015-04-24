@@ -1,0 +1,25 @@
+{
+    "name": "resume-us",
+    "version": "0.0.1",
+    "homepage": "https://github.com/Lynelria/resume-us",
+    "authors": [
+    "Lynelria <lynaria.kel@gmail.com>"
+  ],
+    "description": "A website to show our resumes in a cool way",
+    "main": "home.html",
+    "keywords": [
+    "cv",
+    "résumé"
+  ],
+    "license": "MIT",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+        "waypoints": "3.1.1"
+    }
+}

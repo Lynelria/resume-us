@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    margin-top: 40px;
+    margin-top: 0px;
     height: 100%;
     min-height: 100%;
 }
@@ -46,11 +46,64 @@ h2 {
     min-height: 100%;
 }
 
-.jumbotron,
 .thumbnail {
-    background-color: antiquewhite;
+    background-color: white;
+    border-color: #705c5c;
+    border-width: 3px;
+}
+
+.jumbotron {
+    background-color: #705c5c;
 }
 
 .thumbnail {
     padding-top: 15px;
+}
+
+.resume-lili .jumbotron h1,
+.resume-lili .jumbotron p {
+    color: white;
+}
+
+.resume-lili {
+    padding-top: 50px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #705c5c;
+    border-color: #2e6da4;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #705c5c;
+}
+
+.nav-pills>li a {
+    background-color: white;
+}
+
+a {
+    color: #705c5c;
+}
+
+hr {
+    height: 4px;
+    border-top: 4px solid #ecf0f1;
+    margin: 1em auto;
+    padding: 0 0 15px;
+}
+
+div.navigation {
+    position: fixed!important;
+    z-index: 1000;
+    background: #705c5c;
+}
+
+section {
+    margin-top: -50px;
+    padding-top: 50px;
 }
