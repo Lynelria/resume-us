@@ -7,7 +7,7 @@ var waypoint = new Waypoint({
 })
 
 
-var waypoint = new Waypoint({
+var waypoint2 = new Waypoint({
     element: document.getElementById('education'),
     handler: function (direction) {
         $('#timeline-menu').removeClass("active");
