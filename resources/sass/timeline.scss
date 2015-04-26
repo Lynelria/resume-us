@@ -113,7 +113,6 @@
     right: auto;
 }
 
-
 .timeline-title {
     margin-top: 0;
     color: inherit;
@@ -156,5 +155,11 @@
         border-right-width: 14px;
         left: -14px;
         right: auto;
+    }
+}
+
+.timeline-panel {
+    img {
+        max-width: 242px;
     }
 }
