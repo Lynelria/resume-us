@@ -42,12 +42,6 @@ h2 {
     padding-top: 100%;
 }
 
-.navbar-default {
-    .navbar-nav>li>a {
-        color: $tertiary-color;
-    }
-}
-
 .home {
     height: 100%;
     min-height: 100%;
@@ -105,6 +99,31 @@ div.navigation-mode {
     background: $primary-color;
     text-align: center;
     width: 100%;
+    top: 0px;
+    .navbar {
+        border: none;
+    }
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: $primary-color;
+    background-color: $tertiary-color;
+    border-radius: 5px;
+}
+
+.navbar-default {
+    .navbar-nav>li>a {
+        color: $tertiary-color;
+    }
+    .navbar-nav>li>a:hover {
+        color: $secondary-color;
+    }
+    .navbar-brand {
+        color: $tertiary-color;
+        font-weight: 800;
+    }
 }
 
 section {
