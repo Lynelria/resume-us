@@ -1,0 +1,17 @@
+<div class="container-fluid cubes">
+    <div class="col-sm-3 search-bar">
+        <div class="input-group">
+            <input ng-model="query" type="text" class="form-control" placeholder="Filtre...">
+        </div>
+    </div>
+    <div class="col-sm-12"></div>
+    <div ng-repeat="project in projects | filter:query" class="col-sm-3">
+        <div class="project">
+            <a class="content" href="projects-cubes-lili.html#/projects/{{project.id}}">
+                <h1>{{project.title}}</h1>
+                <br>
+                <span ng-repeat="tag in project.tags">{{tag.label}} </span>
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<div class="container projects-list">
+
+
+    <div class="col-sm-12">
+        <h1>{{currentProject.title}}</h1>
+    </div>
+
+    <div class="col-sm-8">
+        <h2>Rôle</h2>
+        <p>{{currentProject.role}}</p>
+
+        <h2>Objectif du projet</h2>
+        <p> {{currentProject.goal}}</p>
+
+        <h2>Description</h2>
+        <p>{{currentProject.description}}</p>
+
+        <h2>Durée</h2>
+        <p>{{currentProject.duration}}</p>
+
+        <h2>Technologies utilisées</h2>
+        <ul class="tags">
+            <li ng-repeat="tag in currentProject.tags" class="tag weight-{{tag.weight}}">{{tag.label}}</li>
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <img src="../images/montreal-mile-end.jpg">
+    </div>
+    <div class="col-sm-12">
+        <a class="btn btn-primary" href="projects-cubes-lili.html#/projects">Back to project list</a>
+    </div>
+
+</div>

@@ -204,34 +204,13 @@ ul.intervals li.first {
         }
     }
 }
-/*** Font size amusement ***/
-
-span.size1 {
-    font-size: 32px;
-}
-
-span.size2 {
-    font-size: 28px;
-}
-
-span.size3 {
-    font-size: 24px;
-}
-
-span.size4 {
-    font-size: 20px;
-}
-
-span.size5 {
-    font-size: 18px;
-}
-
-span.size6 {
-    font-size: 16px;
-}
 /******* Cubes ********/
 
 .cubes {
+    h1 {
+        color: $tertiary-color;
+        font-size: 140%;
+    }
     .project {
         height: 250px;
         background-image: linear-gradient($primary-color, $secondary-color);
@@ -256,4 +235,31 @@ span.size6 {
         transform: scale(1.1);
         box-shadow: 0 0 65px $secondary-color inset, 0 0 20px $secondary-color inset, 0 0 15px $primary-color;
     }
+}
+/**** Tags *****/
+
+.tags {
+    .tag {
+        display: inline;
+        padding-right: 5px;
+    }
+    .tag.weight-5 {
+        font-size: 32px;
+    }
+    .tag.weight-4 {
+        font-size: 28px;
+    }
+    .tag.weight-3 {
+        font-size: 24px;
+    }
+    .tag.weight-2 {
+        font-size: 20px;
+    }
+    .tag.weight-1 {
+        font-size: 16px;
+    }
+}
+
+.search-bar{
+    margin-bottom : 30px;
 }

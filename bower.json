@@ -1,27 +1,30 @@
 {
-    "name": "resume-us",
-    "version": "0.0.1",
-    "homepage": "https://github.com/Lynelria/resume-us",
-    "authors": [
+  "name": "resume-us",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Lynelria/resume-us",
+  "authors": [
     "Lynelria <lynaria.kel@gmail.com>"
   ],
-    "description": "A website to show our resumes in a cool way",
-    "main": "home.html",
-    "keywords": [
+  "description": "A website to show our resumes in a cool way",
+  "main": "home.html",
+  "keywords": [
     "cv",
     "résumé"
   ],
-    "license": "MIT",
-    "ignore": [
+  "license": "MIT",
+  "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
   ],
-    "dependencies": {
-        "waypoints": "3.1.1",
-        "bootstrap-sass-official": "~3.3.4",
-        "angular": "~1.3.15"
-    }
+  "dependencies": {
+    "waypoints": "3.1.1",
+    "bootstrap-sass-official": "~3.3.4",
+    "angular": "~1.3.15"
+  },
+  "devDependencies": {
+    "angular-route": "~1.3.15"
+  }
 }

@@ -10,7 +10,7 @@
     },
     "scripts": {
         "start": "node server.js",
-        "build-js": "HOME=$HOME/app-root/runtime bower install"
+        "build-js": "export HOME=$HOME/app-root/runtime; bower install"
     },
     "main": "server.js"
 
