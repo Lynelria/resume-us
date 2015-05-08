@@ -9,8 +9,10 @@
         "express": "^4.12.3"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "build-js": "HOME=$HOME/app-root/runtime bower install"
     },
-    "main": "server.js"
+    "main": "server.js",
+
 
 }
