@@ -128,45 +128,37 @@
     }, {
             "company": "Crédit Mutuel Arkéa",
             "author": "Lynelria",
-            "duration": "",
+            "duration": "3 mois",
             "title": "Prélèvement SEPA",
             "role": "Scrum master",
             "goal": "Permettre aux utilisateurs du site Fortuneo de voir leur prélèvements en cours et de les clôturer leur mandat de prélèvement.",
             "description": "Conception,Développement",
             "tags": [{
-                    "label": "",
+                    "label": "Eclipse",
                     "weight": 5
             }, {
-                    "label": "",
+                    "label": "Java",
                     "weight": 4
             }, {
-                    "label": ""
+                    "label": "HTML"
             }, {
-                    "label": ""
+                    "label": "CSS"
             }, {
-                    "label": ""
+                    "label": "Webservices"
             }, {
-                    "label": ""
+                    "label": "Noheto"
             }, {
-                    "label": ""
+                    "label": "Thrift"
             }, {
-                    "label": ""
+                    "label": "Spring"
             }, {
-                    "label": ""
+                    "label": "JIRA"
             }, {
-                    "label": ""
+                    "label": "ivy"
             }, {
-                    "label": ""
+                    "label": "ant"
             }, {
-                    "label": ""
-            }, {
-                    "label": ""
-            }, {
-                    "label": ""
-            }, {
-                    "label": ""
-            }, {
-                    "label": ""
+                    "label": "Tomcat"
             }
             ],
             "images": ["", ""],
