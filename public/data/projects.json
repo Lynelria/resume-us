@@ -1,0 +1,224 @@
+{
+    "projects": [
+        {
+            "company": "Crédit Mutuel Arkéa",
+            "author": "Lynelria",
+            "duration": "3 mois ",
+            "title": "Application iPad Gestion de budget",
+            "role": "Chef de projet",
+            "goal": "Ajout de fonctionnalités à une application de prédiction des opérations du client et de facilitation de la gestion de budget(préparation d’ un projet d’ achat, nouvelle vision des dépenses passées et à venir)",
+            "description": "Gestion de projet(planification, suivi de budget) Mise en place d’ atelier de réflexion sur des axes de développement de l’ application Travail en mode start - up Rédaction de user stories Accompagnement des développeurs Relecture de code Livraisons en production toutes les 2 semaines",
+            "tags": [{
+                    "label": "iOS",
+                    "weight": 5
+            }, {
+                    "label": "XCode",
+                    "weight": 4
+            }, {
+                    "label": "Agile"
+            }, {
+                    "label": "itunesConnect"
+            }, {
+                    "label": "JIRA"
+            }, {
+                    "label": "SnowIT"
+            }, {
+                    "label": "ivy"
+            }, {
+                    "label": "ant"
+            }, {
+                    "label": "SVN"
+            }, {
+                    "label": "Hadoop"
+            }, {
+                    "label": "MapReduce"
+            }, {
+                    "label": "TestFlight"
+            }
+            ],
+            "images": ["", ""]
+    }, {
+            "company": "Crédit Mutuel Arkéa",
+            "author": "Lynelria",
+            "duration": "1 mois ",
+            "title": "Suivi d’ une Formation à NodeJS et AngularJS",
+            "role": "Développeuse",
+            "goal": "Formation à NodeJS et AngularJS en préparation de la sortie du nouveau site Fortuneo en RWD",
+            "description": "15 jours d’intégration à une équipe agile chez Xebia, permettant de découvrir les développements en cours et de s’y intégrer pendant 15 jours, puis formation intensive de 7 jours à NodeJS et AngularJS par Zenika.",
+            "tags": [{
+                    "label": "Nodejs",
+                    "weight": 5
+            }, {
+                    "label": "AngularJS",
+                    "weight": 4
+            }, {
+                    "label": "NockJS"
+            }, {
+                    "label": "Mocha"
+            }, {
+                    "label": "ProTractor"
+            }, {
+                    "label": "HTML"
+            }, {
+                    "label": "CSS"
+            }, {
+                    "label": "SASS"
+            }, {
+                    "label": "bourbon"
+            }, {
+                    "label": "neat"
+            }, {
+                    "label": "git"
+            }, {
+                    "label": "github"
+            }, {
+                    "label": "Express"
+            }, {
+                    "label": "gulp"
+            }, {
+                    "label": "grunt"
+            }, {
+                    "label": "Intellij"
+            }
+            ],
+            "images": ["", ""],
+            "urls": ["http://offres.fortuneo.fr/"]
+    }, {
+            "company": "Crédit Mutuel Arkéa",
+            "author": "Lynelria",
+            "duration": "6 mois",
+            "title": "Applications natives Fortuneo iOS et Android",
+            "role": "Chef de projet",
+            "goal": "Ajout de nouvelles fonctionnalités et amélioration graphique de l’application",
+            "description": "Evolutif et correctif sur les applications natives Fortuneo Tests unitaires JUnit au niveau des services Tests d’intégration Assistance technique des développeurs lors de problème liés au service appelés par les applications Suivi des développements, revue de code Suivi de la facturation",
+            "tags": [{
+                    "label": "Eclipse",
+                    "weight": 5
+            }, {
+                    "label": "Android",
+                    "weight": 4
+            }, {
+                    "label": "iOS"
+            }, {
+                    "label": "Android Studio"
+            }, {
+                    "label": "XCode"
+            }, {
+                    "label": "Webservices"
+            }, {
+                    "label": "Thrift"
+            }, {
+                    "label": "Objective C"
+            }, {
+                    "label": "Spring"
+            }, {
+                    "label": "Java"
+            }, {
+                    "label": "JIRA"
+            }, {
+                    "label": "ivy"
+            }, {
+                    "label": "ant"
+            }, {
+                    "label": "gradle"
+            }
+            ],
+            "images": ["", ""],
+            "urls": ["https://itunes.apple.com/fr/app/fortuneo/id385730327?mt=8", "https://play.google.com/store/apps/details?id=com.fortuneo.android&hl=fr"]
+    }, {
+            "company": "Crédit Mutuel Arkéa",
+            "author": "Lynelria",
+            "duration": "",
+            "title": "Prélèvement SEPA",
+            "role": "Scrum master",
+            "goal": "Permettre aux utilisateurs du site Fortuneo de voir leur prélèvements en cours et de les clôturer leur mandat de prélèvement.",
+            "description": "Conception,Développement",
+            "tags": [{
+                    "label": "",
+                    "weight": 5
+            }, {
+                    "label": "",
+                    "weight": 4
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }
+            ],
+            "images": ["", ""],
+            "url": ""
+    }, {
+            "company": "",
+            "author": "Lynelria",
+            "duration": "",
+            "title": "",
+            "role": "",
+            "goal": "",
+            "description": "",
+            "tags": [{
+                    "label": "",
+                    "weight": 5
+            }, {
+                    "label": "",
+                    "weight": 4
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }, {
+                    "label": ""
+            }
+            ],
+            "images": ["", ""],
+            "urls": [""]
+    }
+
+    ]
+
+}

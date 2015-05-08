@@ -1,0 +1,26 @@
+/*** Carousel ***/
+
+#myCarousel {
+    margin: auto auto;
+    //background-image: url("../images/pc-vide.png");
+    //background-size: contain;
+    max-width: 584px;
+    .carousel-inner {
+        position: absolute;
+        top: 34px;
+        left: 55px;
+        max-width: 458px;
+    }
+    img.device {
+        max-width: 100%;
+    }
+}
+
+.back-carousel {
+    text-align: center;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background: none;
+}

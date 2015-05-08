@@ -1,0 +1,44 @@
+/*
+iPhone / Droid – 320px $screen-xs-max
+wide Small Tablets – 640px $screen-s-max
+wide iPad / Tablet – 768px $screen-md-max
+wide Computer – greater than 960px wide $screen-lg-max
+*/
+
+$screen-xs-max: 320px;
+$screen-s-min: 321px;
+$screen-s-max: 640px;
+$screen-md-min: 641px;
+$screen-md-max: 768px;
+$screen-lg-min: 769px;
+$screen-lg-max: 960px;
+.display-xs,
+.display-s,
+.display-md,
+.display-lg {
+    display: none;
+}
+
+@media (max-width: $screen-xs-max) {
+    .display-xs {
+        display: block;
+    }
+}
+
+@media (min-width: $screen-s-min) and (max-width: $screen-s-max) {
+    .display-s {
+        display: block;
+    }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    .display-md {
+        display: block;
+    }
+}
+
+@media (min-width: $screen-lg-min) {
+    .display-lg {
+        display: block;
+    }
+}
