@@ -188,7 +188,6 @@ ul.intervals li.first {
 .projects-list {
     img {
         width: 100%;
-        height: 100%;
     }
     div.project {
         border-width: 1px;
@@ -200,16 +199,53 @@ ul.intervals li.first {
         h2 {
             color: $tertiary-color;
         }
-    }
-    div.project.right {
-        float: right;
+        div.project.right {
+            float: right;
+        }
     }
 }
+/*** Font size amusement ***/
 
-span.big {
+span.size1 {
+    font-size: 32px;
+}
+
+span.size2 {
+    font-size: 28px;
+}
+
+span.size3 {
     font-size: 24px;
 }
 
-span.notsobig {
+span.size4 {
+    font-size: 20px;
+}
+
+span.size5 {
     font-size: 18px;
+}
+
+span.size6 {
+    font-size: 16px;
+}
+/*** Carousel ***/
+
+#myCarousel {
+    max-width: 400px;
+    margin: auto auto;
+    //background-image: url("../images/pc-vide.png");
+    //background-size: contain;
+    .carousel-inner {
+        position: absolute;
+          top: 34px;
+  left: 55px;
+    }
+}
+
+.back-carousel {}
+
+.carousel-control.right,
+.carousel-control.left {
+    background: none;
 }
