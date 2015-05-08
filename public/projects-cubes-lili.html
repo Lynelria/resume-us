@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="resumeApp">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -26,7 +26,7 @@
 
 
 
-    <body>
+    <body ng-controller="CubeController">
 
         <nav class="navbar navbar-default ">
             <div class="container-fluid navigation-mode">
@@ -56,7 +56,7 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-        <div class="container resume-lili">
+        <div class="container-fluid resume-lili">
 
             <div class="jumbotron">
                 <div class="jumbo-content">
@@ -67,7 +67,6 @@
                         <p>Contact : elise.challanbelval(at)gmail.com</p>
                     </div>
                     <div class="col-sm-3 photo">
-                        <img src="images/lili-cv_resized.jpg">
                     </div>
 
                 </div>
@@ -79,109 +78,13 @@
 
 
 
-        <div class="container cubes">
 
 
-            <div class="col-sm-3">
-                <div class="project"><a class="content" href="projects/gestion-de-budget.html">
-                        Application iPad Gestion de budget
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Suivi d’une Formation à NodeJS et AngularJS
-                    </a>
-                </div>
 
-            </div>
-
-            <div class="col-sm-3">
+        <div class="container-fluid cubes">
+            <div ng-repeat="project in projects" class="col-sm-3">
                 <div class="project"><a class="content">
-                    Applications natives Fortuneo iOS et Android
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Prélèvements SEPA
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Adaptation à une nouvelle loi de finance
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Refonte de pages boursières
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Site JCMS Fortuneo Belgique
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Migration dans une nouvelle architecture technique d'un progiciel bancaire belge
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    
-                    Site Arkéa
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Site Arkéa banque privée
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Evolutions et correction concernant les virements sur l'ancien et le nouveau site du Crédit Mutuel (de Bretagne, du Sud Ouest, et du Massif Central)
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    TMA sur l'application GREF Iroise
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Automatisation des tests d'un logiciel de chiffrement
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Simulation d'une scène militaire en 3D
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Amélioration d'un gestionnaire de dialogue
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="project"><a class="content">
-                    Recherche de communautés dans des graphes
+                    {{project.title}}
                     </a>
                 </div>
             </div>
@@ -191,11 +94,10 @@
 
 
 
-
-
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
-
+        <script src="../bower_components/angular/angular.min.js"></script>
+        <script src="js/controllers.js"></script>
         <script src="../bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
         <script src="js/nav.js"></script>
     </body>
