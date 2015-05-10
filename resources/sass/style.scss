@@ -8,20 +8,21 @@ body {
     margin-top: 0px;
     height: 100%;
     min-height: 100%;
+    font-family: 'Roboto';
 }
 
 h1,
 h2 {
-    font-family: 'Handlee', cursive;
+    font-family: 'Roboto';
     color: $primary-color;
 }
 
 .lili-bg {
-    background-image: url('../images/lili-cv_resized.jpg');
+    background-image: url('../images/montreal-mile-end.jpg');
 }
 
 .alex-bg {
-    background-image: url('../images/alex-red.jpg');
+    background-image: url('../images/montreal-mile-end.jpg');
 }
 
 .split-home {
@@ -194,13 +195,9 @@ ul.intervals li.first {
         border-style: solid;
         border-radius: 5px;
         margin-bottom: 10px;
-        background-color: $primary-color;
         color: $tertiary-color;
         h2 {
             color: $tertiary-color;
-        }
-        div.project.right {
-            float: right;
         }
     }
 }
@@ -213,14 +210,16 @@ ul.intervals li.first {
     }
     .project {
         height: 250px;
-        background-image: linear-gradient($primary-color, $secondary-color);
         text-align: center;
         margin-bottom: 40px;
         margin-left: 10px;
         margin-right: 10px;
-        display: table;
-        width: 100%;
         padding: 10px;
+    }
+    div.content-container {
+        display: table;
+        height: 100%;
+        background-color: $primary-color-transparent;
         .content, .content:hover {
             position: relative;
             height: 100%;
@@ -260,6 +259,6 @@ ul.intervals li.first {
     }
 }
 
-.search-bar{
-    margin-bottom : 30px;
+.search-bar {
+    margin-bottom: 30px;
 }

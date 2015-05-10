@@ -37,7 +37,7 @@
                     "label": "TestFlight"
             }
             ],
-            "images": ["", ""]
+            "images": ["images/tablet_man.jpg", ""]
     }, {
             "id": 16,
             "company": "Crédit Mutuel Arkéa",
@@ -83,7 +83,7 @@
                     "label": "Intellij"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/tablet-carnet.jpg", ""],
             "urls": ["http://offres.fortuneo.fr/"]
     }, {
             "id": 15,
@@ -126,7 +126,7 @@
                     "label": "gradle"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/ipad-sticky-note.jpg", ""],
             "urls": ["https://itunes.apple.com/fr/app/fortuneo/id385730327?mt=8", "https://play.google.com/store/apps/details?id=com.fortuneo.android&hl=fr"]
     }, {
             "id": 14,
@@ -165,7 +165,7 @@
                     "label": "Tomcat"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/pen_paper.jpg", ""],
             "url": ""
     }, {
             "id": 13,
@@ -198,7 +198,7 @@
                     "label": "Tomcat"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/old_files_pen.jpg", ""],
             "urls": [""]
     }, {
             "id": 12,
@@ -237,7 +237,7 @@
                     "label": "ant"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/wallstreet_charts.jpg", ""],
             "urls": [""]
     }, {
             "id": 11,
@@ -272,7 +272,7 @@
                     "label": "SnowIT"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/workstation_iphone.jpg", ""],
             "urls": ["https://www.fortuneo.be/"]
     }, {
             "id": 10,
@@ -293,7 +293,7 @@
                     "label": "SnowIT"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/workpace.jpg", ""],
             "urls": [""]
     }, {
             "id": 9,
@@ -326,7 +326,7 @@
                     "label": "JSP"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/workstation_iphone.jpg", ""],
             "urls": ["http://www.arkea.com"]
     }, {
             "id": 8,
@@ -355,7 +355,7 @@
                     "label": "Thrift"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/office_desk.jpg", ""],
             "urls": ["https://www.arkeabanqueprivee.fr"]
     }, {
             "id": 7,
@@ -382,7 +382,7 @@
                     "label": "JSP"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/tablet_man.jpg", ""],
             "urls": [""]
     }, {
             "id": 6,
@@ -411,7 +411,7 @@
                     "label": "ant"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/pen_paper.jpg", ""],
             "urls": ["www.cmb.fr"]
     }, {
             "id": 5,
@@ -440,7 +440,7 @@
                     "label": "Maven"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/laptop.jpg", ""],
             "urls": [""]
     }, {
             "id": 4,
@@ -461,7 +461,7 @@
                     "label": "Salome TMF"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/lock.jpg", ""],
             "urls": [""]
     }, {
             "id": 3,
@@ -488,7 +488,7 @@
                     "label": "VRML"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/airport_parking_deck.jpg", ""],
             "urls": [""]
     }, {
             "id": 2,
@@ -511,7 +511,7 @@
                     "label": "Actionscript"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/display_dummy.jpg", ""],
             "urls": [""]
     }, {
             "id": 1,
@@ -534,7 +534,7 @@
                     "label": "Octave"
             }
             ],
-            "images": ["", ""],
+            "images": ["images/workpace.jpg", ""],
             "urls": [""]
     }
 

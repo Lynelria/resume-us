@@ -1,4 +1,103 @@
-<div class="container-fluid cubes">
+<div class="container resume-lili">
+    <section id="career">
+        <h1>Expérience professionnelle</h1>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-badge info">01/2014
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <img src="images/Credit_mutuel_Arkea.png" alt="Crédit Mutuel Arkéa"> Crédit Mutuel Arkéa
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Durée : 1 an et 4 mois</small>
+                        </p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Innovation <a href="projects-lili.html">See my project</a>
+                        </p>
+                        <p>Fortuneo</p>
+                        <p>Fortuneo Belgique</p>
+
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge info">
+                    03/2012
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <img src="images/logo-asi.jpg" alt="ASI Informatique"> ASI Informatique
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Durée : 1an et 11 mois</small>
+                        </p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Arkéa</p>
+                        <p>GREF</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge info">
+                    03/2012
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <img src="images/logo-abak.png"> ABAK Systèmes
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Durée : 2ans et 1mois</small>
+                        </p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Simulation de scène militaire</p>
+                        <p>Automatisation des tests pour un logiciel de chiffrement</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge info">
+                    04/2009
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <img src="images/logo-asanangel.jpg"> As An Angel
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Durée : 6 mois</small>
+                        </p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Amélioration d'un gestionnaire de dialogues</p>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge info">
+                    07/2008
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <img src="images/logo-lip6.png"> Laboratoire d'informatique de Paris 6
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Durée : 2 mois</small>
+                        </p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Implémentation d'un algorithme de recherche de communauté</p>
+
+
+                    </div>
+                </div>
+            </li>
+
+
+        </ul>
+    </section>
+
+</div>
+
+
+
+
+
+
+<div class="container cubes">
     <div class="col-sm-3 search-bar">
         <div class="input-group">
             <input ng-model="query" type="text" class="form-control" placeholder="Filtre...">
@@ -6,12 +105,60 @@
     </div>
     <div class="col-sm-12"></div>
     <div ng-repeat="project in projects | filter:query" class="col-sm-3">
-        <div class="project">
-            <a class="content" href="projects-cubes-lili.html#/projects/{{project.id}}">
-                <h1>{{project.title}}</h1>
-                <br>
-                <span ng-repeat="tag in project.tags">{{tag.label}} </span>
-            </a>
+        <div class="project" style="background-image:url('{{project.images[0]}}');background-size:cover">
+            <div class="content-container">
+                <a class="content" href="projects-cubes-lili.html#/projects/{{project.id}}">
+                    <h1>{{project.title}}</h1>
+                    <br>
+                    <span ng-repeat="tag in project.tags">{{tag.label}} </span>
+                </a>
+            </div>
         </div>
     </div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+    <section id="skills">
+        <h1>Computer Science Skills</h1>
+
+        <h2>Languages</h2>
+        <p>
+            Java, Javascript,SQL, C++, HTML,CSS, Javascript, Python, Flex, Actionscript, Php, Octave, UML, XML, Prolog, Clips,VRML
+        </p>
+        <h2>Frameworks</h2>
+        <p>
+            Jalios CMS, J2EE, Struts, Spring, Thrift, GWT, Eactivity Hibernate
+        </p>
+        <h2>IDE</h2>
+        <p>
+            IntelliJ, Eclipse, Visual Studio, Netbeans
+        </p>
+        <h2>Bases de données</h2>
+        <p>SQL, MySQL, MongoDB</p>
+        <h2>Outils</h2>
+        <p>SVN, Jenkins, ANT, JIRA, Teamtrack, Jmeter, TestComplete, Salome TMF, Mantis, Blender3D, ArgoUML</p>
+    </section>
+
+
+
+    <hr>
+
+
+
+    <section id="education">
+
+        <h1>Formation</h1>
+        <h2>2009</h2>
+        <p>Master 2 d’Informatique, spécialité Intelligence Artificielle et aide à la décision, parcours Interface et Communication Homme-Machine Paris 6, Pierre et Marie Curie (75)
+        </p>
+        <h2>2004</h2> Baccalauréat scientifique spécialité Mathématiques, Lycée Anna Judic de Semur-en-Auxois (21)
+    </section>
+
+
 </div>
