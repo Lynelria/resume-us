@@ -1,4 +1,4 @@
-var resumeApp = angular.module('resumeApp', ['ngRoute', 'resumeControllers']);
+var resumeApp = angular.module('resumeApp', ['ngRoute', 'resumeControllers', 'ngSanitize', 'ui.bootstrap']);
 
 
 

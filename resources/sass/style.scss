@@ -78,10 +78,26 @@ h2 {
     }
 }
 
-.btn-primary {
+.btn-primary,
+.btn-default,
+.btn.btn-default:focus {
     color: $tertiary-color;
-    background-color: $primary-color;
+    background-color: $secondary-color;
     border-color: $secondary-color;
+}
+
+.btn.btn-default.active {
+    background-color: $primary-color;
+    color: $tertiary-color;
+}
+
+.tags {
+    text-align: center;
+    .btn.btn-default {
+        font-size: 89%;
+        padding: 3px;
+        margin-bottom: 3px;
+    }
 }
 
 a {

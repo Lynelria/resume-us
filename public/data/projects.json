@@ -8,7 +8,7 @@
             "title": "Application iPad Gestion de budget",
             "role": "Chef de projet",
             "goal": "Ajout de fonctionnalités à une application de prédiction des opérations du client et de facilitation de la gestion de budget(préparation d’ un projet d’ achat, nouvelle vision des dépenses passées et à venir)",
-            "description": "Gestion de projet(planification, suivi de budget) Mise en place d’ atelier de réflexion sur des axes de développement de l’ application Travail en mode start - up Rédaction de user stories Accompagnement des développeurs Relecture de code Livraisons en production toutes les 2 semaines",
+            "description": "<ul><li>Gestion de projet(planification, suivi de budget)</li> <li>Mise en place d’ atelier de réflexion sur des axes de développement de l’ application</li> <li>Travail en mode start-up </li><li>Rédaction de user stories </li><li>Accompagnement des développeurs Relecture de code Livraisons en production toutes les 2 semaines</li></ul>",
             "tags": [{
                     "label": "iOS",
                     "weight": 5
@@ -54,9 +54,8 @@
                     "label": "AngularJS",
                     "weight": 4
             }, {
-                    "label": "NockJS"
-            }, {
-                    "label": "Mocha"
+                    "label": "JavaScript",
+                    "weight": 4
             }, {
                     "label": "ProTractor"
             }, {
@@ -66,21 +65,17 @@
             }, {
                     "label": "SASS"
             }, {
-                    "label": "bourbon"
-            }, {
-                    "label": "neat"
-            }, {
                     "label": "git"
             }, {
                     "label": "github"
-            }, {
-                    "label": "Express"
             }, {
                     "label": "gulp"
             }, {
                     "label": "grunt"
             }, {
                     "label": "Intellij"
+            }, {
+                    "label": "Mongo"
             }
             ],
             "images": ["images/tablet-carnet.jpg", ""],
@@ -93,7 +88,7 @@
             "title": "Applications natives Fortuneo iOS et Android",
             "role": "Chef de projet",
             "goal": "Ajout de nouvelles fonctionnalités et amélioration graphique de l’application",
-            "description": "Evolutif et correctif sur les applications natives Fortuneo Tests unitaires JUnit au niveau des services Tests d’intégration Assistance technique des développeurs lors de problème liés au service appelés par les applications Suivi des développements, revue de code Suivi de la facturation",
+            "description": "<ul><li>Evolutif et correctif sur les applications natives Fortuneo </li><li>Tests unitaires </li><li>JUnit au niveau des services </li><li>Tests d’intégration </li><li>Assistance technique des développeurs lors de problème liés au service appelés par les applications</li><li> Suivi des développements</li><li> Revue de code</li> <li>Suivi de la facturation</li></ul>",
             "tags": [{
                     "label": "Eclipse",
                     "weight": 5
@@ -111,7 +106,7 @@
             }, {
                     "label": "Thrift"
             }, {
-                    "label": "Objective C"
+                    "label": "ObjectiveC"
             }, {
                     "label": "Spring"
             }, {
@@ -150,6 +145,8 @@
             }, {
                     "label": "Webservices"
             }, {
+                    "label": "Oracle"
+            }, {
                     "label": "Noheto"
             }, {
                     "label": "Thrift"
@@ -175,7 +172,7 @@
             "title": "Adaptation à une nouvelle loi de finance",
             "role": "Scrum master",
             "goal": "Adaptation du site web à une nouvelle loi de finance, forcant les banques à afficher certains taux de rétrocession.",
-            "description": "Conception,Développement",
+            "description": "<ul><li>Conception</li><li>Développement</li>",
             "tags": [{
                     "label": "Java",
                     "weight": 5
@@ -208,7 +205,7 @@
             "title": "Refonte de pages boursières",
             "role": "Scrum master",
             "goal": "Offrir un nouvel affichage des pages boursières aux utilisateurs, avec une nouvelle organisation des informations, ainsi que de nouvelles sources d’informations à récupérer de notre fournisseur de flux.",
-            "description": "Tests unitaires, Conception, Développement",
+            "description": "<li>Tests unitaires</li><li>Conception</li><li>Développement</li>",
             "tags": [{
                     "label": "Eclipse",
                     "weight": 5
@@ -247,17 +244,17 @@
             "title": "Site JCMS Fortuneo Belgique",
             "role": "Conceptrice et développeuse",
             "goal": "Refondre le site Fortuneo Belgique, en particulier le CMS utilisé",
-            "description": "Accompagnement du marketing pour déterminer les types de templates à mettre en place dans le CMS Mise en place des templates dans JCMS Développement des templates en html, css, freemarker, et controller Intégration CSS Formation des futurs contributeurs https://www.fortuneo.be/",
+            "description": "<li>Accompagnement du marketing pour déterminer les types de templates à mettre en place dans le CMS Mise en place des templates dans JCMS</li> <li>Développement des templates en html, css, freemarker, et controller </li><li>Intégration CSS </li><li>Formation des futurs contributeurs</li>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
-                    "label": "JCMS (CMS)",
+                    "label": "JCMS",
                     "weight": 4
             }, {
                     "label": "HTML"
             }, {
                     "label": "JSON"
+            }, {
+                    "label": "JavaScript",
+                    "weight": 4
             }, {
                     "label": "REST"
             }, {
@@ -267,9 +264,14 @@
             }, {
                     "label": "bootstrap"
             }, {
+                    "label": "MySQL"
+            }, {
                     "label": "jquery"
             }, {
                     "label": "SnowIT"
+            }, {
+                    "label": "Eclipse",
+                    "weight": 5
             }
             ],
             "images": ["images/workstation_iphone.jpg", ""],
@@ -282,7 +284,7 @@
             "title": "Migration dans une nouvelle architecture technique d’un progiciel bancaire belge",
             "role": "Chef de projet",
             "goal": "",
-            "description": "",
+            "description": "<ul><li>Coordination des équipes d'intégration serveur, base de données, et automatisation pour la migration de l'architecture technique</li><li></li></ul>",
             "tags": [{
                     "label": "Fronteo",
                     "weight": 5
@@ -291,6 +293,10 @@
                     "weight": 4
             }, {
                     "label": "SnowIT"
+            }, {
+                    "label": "JIRA"
+            }, {
+                    "label": "shell"
             }
             ],
             "images": ["images/workpace.jpg", ""],
@@ -303,7 +309,7 @@
             "title": "Site Arkéa",
             "role": "Scrum master + Formatrice pour les futurs contributeurs",
             "goal": "Refonte du site Arkéa pour obtenir un design plus proche de l’image de marque, accompagné d’un gestionnaire de contenu simple à utiliser mais permettant une grande liberté aux contributeurs, site en RWD.",
-            "description": "Accompagnement des équipes projet dans le processus de choix des gabarits possibles Conception Développement Intégration CSS",
+            "description": "<ul><li>Accompagnement des équipes projet dans le processus de choix des gabarits possibles</li><li> Conception</li> <li>Développement </li><li>Intégration CSS</li></ul>",
             "tags": [{
                     "label": "Eclipse",
                     "weight": 5
@@ -336,7 +342,7 @@
             "title": "Site Arkéa Banque privée",
             "role": " Scrum master + Formatrice pour les futurs contributeurs",
             "goal": "Création du site publique Arkéa Banque Privée.",
-            "description": "Accompagnement des équipes projet dans le processus de choix des gabarits possibles Conception Développement Intégration CSS https://www.arkeabanqueprivee.fr",
+            "description": "<ul><li>Accompagnement des équipes projet dans le processus de choix des gabarits possibles</li><li> Conception</li><li> Développement</li><li> Intégration CSS </li></ul>",
             "tags": [{
                     "label": "Eclipse",
                     "weight": 5
@@ -365,7 +371,7 @@
             "title": "Evolutions et corrections sur le gestionnaire de contenu et le frontal des sites suivants :",
             "role": "Développeuse",
             "goal": "Amélioration des sites existants du Crédit Mutuel",
-            "description": "Analyse d’anomalie Conception Développement Intégration CSS https://www.cmb.fr https://www.cmso.fr https://www.cmmc.fr https://www.psabanque.fr https://www.livretzesto.fr La banque postale gestion privée https://www.arkea-banque-ei.com www.fortuneo.be (avant refonte)",
+            "description": "<ul><li>Analyse d’anomalie </li><li>Conception</li><li> Développement</li><li>Intégration CSS</li> (avant refonte)</ul>",
             "tags": [{
                     "label": "Eclipse",
                     "weight": 5
@@ -380,10 +386,14 @@
                     "label": "Java"
             }, {
                     "label": "JSP"
+            }, {
+                    "label": "JavaScript",
+                    "weight": 4
             }
             ],
             "images": ["images/tablet_man.jpg", ""],
-            "urls": [""]
+            "urls": ["https://www.cmb.fr", "https://www.cmso.fr", "https://www.cmmc.fr", "https://www.psabanque.fr", "https://www.livretzesto.fr", "https://www.arkea-banque-ei.com", "www.fortuneo.be"]
+
     }, {
             "id": 6,
             "company": "ASI Informatique",
@@ -392,11 +402,8 @@
             "title": "Evolutions et correction concernant les virements sur l’ancien et le nouveau site",
             "role": "Développeuse",
             "goal": "Corriger des anomalies et faire évoluer la fonctionnalité des virements sur les sites web du Crédit Mutuel de Bretagne, Crédit mutuel du Sud ouest, et Crédit Mutuel du Massif central.",
-            "description": "Analyse d’anomalie Conception Développement",
+            "description": "<ul><li>Analyse d’anomalie</li><li> Conception</li><li> Développement</li></ul>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
                     "label": "Java",
                     "weight": 4
             }, {
@@ -409,6 +416,9 @@
                     "label": "ivy"
             }, {
                     "label": "ant"
+            }, {
+                    "label": "Eclipse",
+                    "weight": 5
             }
             ],
             "images": ["images/pen_paper.jpg", ""],
@@ -421,11 +431,8 @@
             "title": "TMA sur l’application GREF Iroise",
             "role": "Développeuse",
             "goal": "Améliorer une application servant à analyser les données de personnes",
-            "description": "Analyse des performances Mise en place de tests de charge Automatisation de tests fonctionnels avec Jmeter Résolution des problèmes de performances (diminution du nombre d’accès à la base de données) Correction d’anomalies mineures Tests de non régression",
+            "description": "<ul><li>Analyse des performances</li><li>Mise en place de tests de charge</li> <li>Automatisation de tests fonctionnels avec Jmeter</li><li>Résolution des problèmes de performances (diminution du nombre d’accès à la base de données)</li><li>Correction d’anomalies mineures</li><li>Tests de non régression</li>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
                     "label": "Struts",
                     "weight": 4
             }, {
@@ -438,6 +445,9 @@
                     "label": "SQL"
             }, {
                     "label": "Maven"
+            }, {
+                    "label": "Eclipse",
+                    "weight": 2
             }
             ],
             "images": ["images/laptop.jpg", ""],
@@ -450,7 +460,7 @@
             "title": "Automatisation des tests d’un logiciel de chiffrement",
             "role": "Développeuse ",
             "goal": "Faciliter les mises en production du logiciel en maximisant les tests de non régression de façon automatique",
-            "description": "Analyse du besoin en terme de logiciel pour l’automatisation Rédaction des spécifications fonctionnelles et des exigences produit Développement des tests automatisés à l’aide du logiciel TestComplete adaptés aux plateformes Windows XP, Vista, Seven (32 et 64 bits) Mise en place d’une passerelle entre TestComplete et Salome TMF pour le lancement des tests",
+            "description": "<ul><li>Analyse du besoin en terme de logiciel pour l’automatisation</li> <li>Rédaction des spécifications fonctionnelles et des exigences produit</li><li>Développement des tests automatisés à l’aide du logiciel TestComplete adaptés aux plateformes Windows XP, Vista, Seven (32 et 64 bits)</li><li>Mise en place d’une passerelle entre TestComplete et Salome TMF pour le lancement des tests</li>",
             "tags": [{
                     "label": "Delphiscript",
                     "weight": 5
@@ -471,7 +481,7 @@
             "title": "Simulation d’une scène militaire en 3D",
             "role": "",
             "goal": "Refonte d’un logiciel de simulation 3D de scène militaire aérienne en java SWING et java3D",
-            "description": "Implémentation d’un algorithme de zbuffer dans la simulation numérique et applications de lois physiques pour le calcul des points chauds Réalisation d’objets VRML représentant une forme simplifiée d’objets de la scène Maintenance du logiciel",
+            "description": "<ul><li>Implémentation d’un algorithme de zbuffer dans la simulation numérique et applications de lois physiques pour le calcul des points chauds</li><li>Réalisation d’objets VRML représentant une forme simplifiée d’objets de la scène Maintenance du logiciel</li></ul>",
             "tags": [{
                     "label": "Eclipse",
                     "weight": 5
@@ -486,6 +496,8 @@
                     "label": "C++"
             }, {
                     "label": "VRML"
+            }, {
+                    "label": "VisualStudio"
             }
             ],
             "images": ["images/airport_parking_deck.jpg", ""],
@@ -498,7 +510,7 @@
             "title": "Amélioration d’un gestionnaire de dialogue",
             "role": "Stagiaire Développeuse",
             "goal": "Amélioration d’un gestionnaire de dialogue",
-            "description": "Amélioration d’un agent conversationnel Implémentation d’algorithmes de prise de décision et d’apprentissage afin de garantir une logique dans les échanges au cours du dialogue",
+            "description": "<ul><li>Amélioration d’un agent conversationnel</li><li> Implémentation d’algorithmes de prise de décision et d’apprentissage afin de garantir une logique dans les échanges au cours du dialogue</li></ul>",
             "tags": [{
                     "label": "Eclipse",
                     "weight": 5
@@ -521,7 +533,7 @@
             "title": "Recherche de communauté dans les graphes",
             "role": "Stagiaire développeuse",
             "goal": "Découvrir des communauté à l’intérieur de graphes d’e-mails",
-            "description": "Implémentation des modèles de classification décrits dans des articles d’Andrew Mc Callum Mise en place de tests sur différentes base de données d’e-mails Analyse des résultats, et réflexion sur les voies possibles d’amélioration du modèle en fonction de ceux ci",
+            "description": "<ul>Implémentation des modèles de classification décrits dans des articles d’Andrew Mc Callum Mise en place de tests sur différentes base de données d’e-mails</li><li> Analyse des résultats, et réflexion sur les voies possibles d’amélioration du modèle en fonction de ceux ci</li></ul>",
             "tags": [{
                     "label": "Eclipse",
                     "weight": 5

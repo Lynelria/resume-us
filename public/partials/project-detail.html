@@ -13,7 +13,7 @@
         <p> {{currentProject.goal}}</p>
 
         <h2>Description</h2>
-        <p>{{currentProject.description}}</p>
+        <div ng-bind-html="currentProject.description"></div>
 
         <h2>Durée</h2>
         <p>{{currentProject.duration}}</p>
@@ -24,7 +24,7 @@
         </ul>
     </div>
     <div class="col-sm-4">
-        <img src="../images/montreal-mile-end.jpg">
+        <img src="{{currentProject.images[0]}}">
     </div>
     <div class="col-sm-12">
         <a class="btn btn-primary" href="projects-cubes-lili.html#/projects">Back to project list</a>

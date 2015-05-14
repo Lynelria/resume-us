@@ -12,7 +12,7 @@
                         </p>
                     </div>
                     <div class="timeline-body">
-                        <p>Innovation <a href="projects-lili.html">See my project</a>
+                        <p>Innovation</a>
                         </p>
                         <p>Fortuneo</p>
                         <p>Fortuneo Belgique</p>
@@ -89,7 +89,7 @@
 
         </ul>
     </section>
-
+    <hr>
 </div>
 
 
@@ -97,14 +97,56 @@
 
 
 
+
+
+
+
 <div class="container cubes">
-    <div class="col-sm-3 search-bar">
-        <div class="input-group">
-            <input ng-model="query" type="text" class="form-control" placeholder="Filtre...">
-        </div>
+
+
+    <div class="col-sm-12 tags">
+
+        <br>
+        <!--<span>Langages :</span>-->
+
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'java'">Java</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'javascript'">Javascript</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'html'">HTML</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'css'">CSS</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'c++'">C++</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'python'">Python</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'flex'">Flex</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'actionscript'">Actionscript</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'octave'">Octave</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'vrml'">VRML</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'objectivec'">ObjectiveC</button>
+        <br>
+        <!--<span>Applications natives :</span>-->
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'android'">Android</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'ios'">iOS</button>
+
+        <br>
+        <!--<span>Framework :</span>-->
+
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'jcms'"> JCMS</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'struts'"> Struts</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'spring'"> Spring</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'thrift'"> Thrift</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'eactivity'"> Eactivity</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'hibernate'"> Hibernate</button>
+
+        <br>
+        <!--<span>Base de données :</span>-->
+
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'sql'"> Oracle</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'mysql'"> MySQL</button>
+        <button type="button" class="btn btn-default" ng-model="currentTag" uncheckable btn-radio="'mongo'"> Mongo</button>
+
+        <br>
+
     </div>
-    <div class="col-sm-12"></div>
-    <div ng-repeat="project in projects | filter:query" class="col-sm-3">
+
+    <div ng-repeat="project in projects | filter:tagFilter" class="col-sm-3">
         <div class="project" style="background-image:url('{{project.images[0]}}');background-size:cover">
             <div class="content-container">
                 <a class="content" href="projects-cubes-lili.html#/projects/{{project.id}}">
@@ -114,6 +156,9 @@
                 </a>
             </div>
         </div>
+    </div>
+    <div class="col-sm-12">
+        <hr>
     </div>
 </div>
 
@@ -125,11 +170,11 @@
 
 <div class="container">
     <section id="skills">
-        <h1>Computer Science Skills</h1>
+        <h1>Compétences en informatique</h1>
 
-        <h2>Languages</h2>
+        <h2>Langages</h2>
         <p>
-            Java, Javascript,SQL, C++, HTML,CSS, Javascript, Python, Flex, Actionscript, Php, Octave, UML, XML, Prolog, Clips,VRML
+            Java, Javascript,SQL, C++, HTML,CSS, Python, Flex, Actionscript, Php, Octave, XML,VRML
         </p>
         <h2>Frameworks</h2>
         <p>
@@ -137,7 +182,7 @@
         </p>
         <h2>IDE</h2>
         <p>
-            IntelliJ, Eclipse, Visual Studio, Netbeans
+            IntelliJ, Eclipse, Visual Studio
         </p>
         <h2>Bases de données</h2>
         <p>SQL, MySQL, MongoDB</p>
@@ -147,7 +192,7 @@
 
 
 
-    <hr>
+
 
 
 
@@ -155,10 +200,12 @@
 
         <h1>Formation</h1>
         <h2>2009</h2>
-        <p>Master 2 d’Informatique, spécialité Intelligence Artificielle et aide à la décision, parcours Interface et Communication Homme-Machine Paris 6, Pierre et Marie Curie (75)
+        <p>Master 2 (équivalent Maitrise) d’Informatique, spécialité Intelligence Artificielle et aide à la décision, parcours Interface et Communication Homme-Machine Paris 6, Pierre et Marie Curie (75)
         </p>
-        <h2>2004</h2> Baccalauréat scientifique spécialité Mathématiques, Lycée Anna Judic de Semur-en-Auxois (21)
+        <h2>2004</h2> Baccalauréat (équivalent Diplome d'études collégiales) scientifique spécialité Mathématiques, Lycée Anna Judic de Semur-en-Auxois (21)
     </section>
+
+    <hr>
 
 
 </div>
