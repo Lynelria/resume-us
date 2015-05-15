@@ -1,5 +1,9 @@
-<div class="container projects-list">
+<div ng-include="'public/partials/menu.html'"></div>
 
+<div class="container projects-list">
+    <div class="col-sm-12">
+        <a class="btn btn-primary" href="projects-cubes-lili.html#/projects">Retour</a>
+    </div>
 
     <div class="col-sm-12">
         <h1>{{currentProject.title}}</h1>
@@ -27,7 +31,10 @@
         <img src="{{currentProject.images[0]}}">
     </div>
     <div class="col-sm-12">
-        <a class="btn btn-primary" href="projects-cubes-lili.html#/projects">Back to project list</a>
+        <a class="btn btn-primary" href="projects-cubes-lili.html#/projects">Retour</a>
     </div>
 
 </div>
+
+
+<div ng-include="'public/partials/footer.html'"></div>

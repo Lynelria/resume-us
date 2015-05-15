@@ -1,6 +1,6 @@
 var resumeControllers = angular.module('resumeControllers', []);
 
-resumeControllers.controller('CubeController', ['$scope', '$http', function ($scope, $http) {
+resumeControllers.controller('CubeController', ['$scope', '$http', '$location', '$anchorScroll', function ($scope, $http, $location, $anchorScroll) {
 
     $scope.tags = {};
 
@@ -25,7 +25,15 @@ resumeControllers.controller('CubeController', ['$scope', '$http', function ($sc
         } else {
             return true;
         }
-    }
+    };
+
+    $scope.scrollTo = function (id) {
+        var old = $location.hash();
+        $location.hash(id);
+        $anchorScroll();
+        //reset to old to keep any additional routing logic from kicking in
+        $location.hash(old);
+    };
 
     /*
     $scope.allTags = [];
