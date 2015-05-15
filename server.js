@@ -28,5 +28,5 @@ app.use('/public', express.static('public'));
 app.use('/bower_components', express.static('bower_components'));
 
 app.get('/', function (req, res) {
-    res.send("Hello world ! ");
+    res.sendFile(__dirname + '/public/projects-cubes-lili.html');
 });
