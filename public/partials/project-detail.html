@@ -2,7 +2,7 @@
 
 <div class="container projects-list">
     <div class="col-sm-12">
-        <a class="btn btn-primary" href="projects-cubes-lili.html#/projects">Retour</a>
+        <a class="btn btn-primary" href="/#/projects#projects">Retour</a>
     </div>
 
     <div class="col-sm-12">
@@ -19,6 +19,18 @@
         <h2>Description</h2>
         <div ng-bind-html="currentProject.description"></div>
 
+        <div ng-if="currentProject.urls.length>1">
+            <h2>Sites</h2>
+            <ul>
+                <li ng-repeat="url in currentProject.urls"><a ng-href="{{url}}">{{url}}</a>
+                </li>
+            </ul>
+        </div>
+        <div ng-if="currentProject.urls.length==1">
+            <h2>Site</h2>
+            <p><a ng-href="{{url}}">{{url}}</a>
+            </p>
+        </div>
         <h2>Durée</h2>
         <p>{{currentProject.duration}}</p>
 
@@ -26,12 +38,15 @@
         <ul class="tags">
             <li ng-repeat="tag in currentProject.tags" class="tag weight-{{tag.weight}}">{{tag.label}}</li>
         </ul>
+
+
+
     </div>
     <div class="col-sm-4">
         <img src="{{currentProject.images[0]}}">
     </div>
     <div class="col-sm-12">
-        <a class="btn btn-primary" href="projects-cubes-lili.html#/projects">Retour</a>
+        <a class="btn btn-primary" href="/#/projects#projects">Retour</a>
     </div>
 
 </div>

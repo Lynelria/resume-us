@@ -37,7 +37,8 @@
                     "label": "TestFlight"
             }
             ],
-            "images": ["images/tablet_man.jpg", ""]
+            "images": ["images/tablet_man.jpg", ""],
+            "urls": []
     }, {
             "id": 16,
             "company": "Crédit Mutuel Arkéa",
@@ -163,7 +164,7 @@
             }
             ],
             "images": ["images/pen_paper.jpg", ""],
-            "url": ""
+            "url": "https://www.fortuneo.fr"
     }, {
             "id": 13,
             "company": "Crédit Mutuel Arkéa",
@@ -196,7 +197,7 @@
             }
             ],
             "images": ["images/old_files_pen.jpg", ""],
-            "urls": [""]
+            "urls": ["https://www.fortuneo.fr"]
     }, {
             "id": 12,
             "company": "Crédit Mutuel Arkéa",
@@ -235,7 +236,7 @@
             }
             ],
             "images": ["images/wallstreet_charts.jpg", ""],
-            "urls": [""]
+            "urls": ["https://www.fortuneo.fr"]
     }, {
             "id": 11,
             "company": "Crédit Mutuel Arkéa",
@@ -284,7 +285,7 @@
             "title": "Migration dans une nouvelle architecture technique d’un progiciel bancaire belge",
             "role": "Chef de projet",
             "goal": "",
-            "description": "<ul><li>Coordination des équipes d'intégration serveur, base de données, et automatisation pour la migration de l'architecture technique</li><li></li></ul>",
+            "description": "<ul><li>Coordination des équipes d'intégration serveur, base de données, et automatisation pour la migration de l'architecture technique</li></ul>",
             "tags": [{
                     "label": "Fronteo",
                     "weight": 5
@@ -338,7 +339,7 @@
             "id": 8,
             "company": "ASI Informatique",
             "author": "Lynelria",
-            "duration": "",
+            "duration": "2 mois",
             "title": "Site Arkéa Banque privée",
             "role": " Scrum master + Formatrice pour les futurs contributeurs",
             "goal": "Création du site publique Arkéa Banque Privée.",
@@ -367,7 +368,7 @@
             "id": 7,
             "company": "ASI Informatique",
             "author": "Lynelria",
-            "duration": "",
+            "duration": "6 mois",
             "title": "Evolutions et corrections sur le gestionnaire de contenu et le frontal de site Arkéa",
             "role": "Développeuse",
             "goal": "Amélioration des sites existants du Crédit Mutuel",
@@ -392,7 +393,7 @@
             }
             ],
             "images": ["images/tablet_man.jpg", ""],
-            "urls": ["https://www.cmb.fr", "https://www.cmso.fr", "https://www.cmmc.fr", "https://www.psabanque.fr", "https://www.livretzesto.fr", "https://www.arkea-banque-ei.com", "www.fortuneo.be"]
+            "urls": ["https://www.cmb.fr", "https://www.cmso.fr", "https://www.cmmc.fr", "https://www.psabanque.fr", "https://www.livretzesto.fr", "https://www.arkea-banque-ei.com", "https://www.fortuneo.be"]
 
     }, {
             "id": 6,
@@ -422,7 +423,7 @@
             }
             ],
             "images": ["images/pen_paper.jpg", ""],
-            "urls": ["www.cmb.fr"]
+            "urls": ["https://www.cmb.fr", "https://www.cmmc.fr", "https://www.cmso.fr"]
     }, {
             "id": 5,
             "company": "ASI Informatique",
@@ -451,7 +452,7 @@
             }
             ],
             "images": ["images/laptop.jpg", ""],
-            "urls": [""]
+            "urls": []
     }, {
             "id": 4,
             "company": "ABAK Sytèmes",
@@ -472,7 +473,7 @@
             }
             ],
             "images": ["images/lock.jpg", ""],
-            "urls": [""]
+            "urls": []
     }, {
             "id": 3,
             "company": "ABAK Sytèmes",
@@ -501,7 +502,7 @@
             }
             ],
             "images": ["images/airport_parking_deck.jpg", ""],
-            "urls": [""]
+            "urls": ["http://www.abaksystemes.fr/jml/index.php?option=com_content&view=article&id=5&Itemid=7"]
     }, {
             "id": 2,
             "company": "As An Angel",
@@ -524,7 +525,7 @@
             }
             ],
             "images": ["images/display_dummy.jpg", ""],
-            "urls": [""]
+            "urls": []
     }, {
             "id": 1,
             "company": "LIP6",
@@ -547,7 +548,7 @@
             }
             ],
             "images": ["images/workpace.jpg", ""],
-            "urls": [""]
+            "urls": []
     }
 
 
