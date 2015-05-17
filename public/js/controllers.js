@@ -2,6 +2,42 @@ var resumeControllers = angular.module('resumeControllers', []);
 
 resumeControllers.controller('CubeController', ['$scope', '$http', '$location', '$anchorScroll', function ($scope, $http, $location, $anchorScroll) {
 
+
+    /** Waypoints **/
+    var waypoint = new Waypoint({
+        element: document.getElementById('career'),
+        handler: function (direction) {
+            $('#career-menu').addClass("active");
+
+            $('#skills-menu').removeClass("active");
+            $('#presentation-menu').removeClass("active");
+        }
+    });
+
+
+    var waypoint2 = new Waypoint({
+        element: document.getElementById('skills'),
+        handler: function (direction) {
+            $('#skills-menu').addClass("active");
+
+            $('#career-menu').removeClass("active");
+            $('#presentation-menu').removeClass("active");
+        }
+    });
+
+    var waypoint3 = new Waypoint({
+        element: document.getElementById('presentation'),
+        handler: function (direction) {
+            $('#presentation-menu').addClass("active");
+
+            $('#career-menu').removeClass("active");
+            $('#skills-menu').removeClass("active");
+
+        }
+    });
+
+
+
     $scope.tags = {};
 
     $scope.currentTag = "";
