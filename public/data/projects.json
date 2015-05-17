@@ -7,14 +7,12 @@
             "duration": "3 mois ",
             "title": "Application iPad Gestion de budget",
             "role": "Chef de projet",
-            "goal": "Ajout de fonctionnalités à une application de prédiction des opérations du client et de facilitation de la gestion de budget(préparation d’ un projet d’ achat, nouvelle vision des dépenses passées et à venir)",
-            "description": "<ul><li>Gestion de projet(planification, suivi de budget)</li> <li>Mise en place d’ atelier de réflexion sur des axes de développement de l’ application</li> <li>Travail en mode start-up </li><li>Rédaction de user stories </li><li>Accompagnement des développeurs Relecture de code Livraisons en production toutes les 2 semaines</li></ul>",
+            "goal": "Ajout de fonctionnalités à une application de prédiction des opérations du client et de facilitation de la gestion de budget (préparation d’ un projet d’ achat, nouvelle vision des dépenses passées et à venir)",
+            "description": "<ul><li>Gestion de projet (planification, suivi de budget)</li> <li>Mise en place d’atelier de réflexion sur des axes de développement de l’application</li> <li>Travail en mode start-up </li><li>Rédaction de user stories </li><li>Accompagnement des développeurs <li>Relecture de code </li><li>Livraisons en production toutes les 2 semaines</li></ul>",
             "tags": [{
-                    "label": "iOS",
-                    "weight": 5
+                    "label": "iOS"
             }, {
-                    "label": "XCode",
-                    "weight": 4
+                    "label": "XCode"
             }, {
                     "label": "Agile"
             }, {
@@ -49,14 +47,11 @@
             "goal": "Formation à NodeJS et AngularJS en préparation de la sortie du nouveau site Fortuneo en RWD",
             "description": "15 jours d’intégration à une équipe agile chez Xebia, permettant de découvrir les développements en cours et de s’y intégrer pendant 15 jours, puis formation intensive de 7 jours à NodeJS et AngularJS par Zenika.",
             "tags": [{
-                    "label": "Nodejs",
-                    "weight": 5
+                    "label": "Nodejs"
             }, {
-                    "label": "AngularJS",
-                    "weight": 4
+                    "label": "AngularJS"
             }, {
-                    "label": "JavaScript",
-                    "weight": 4
+                    "label": "JavaScript"
             }, {
                     "label": "ProTractor"
             }, {
@@ -89,13 +84,11 @@
             "title": "Applications natives Fortuneo iOS et Android",
             "role": "Chef de projet",
             "goal": "Ajout de nouvelles fonctionnalités et amélioration graphique de l’application",
-            "description": "<ul><li>Evolutif et correctif sur les applications natives Fortuneo </li><li>Tests unitaires </li><li>JUnit au niveau des services </li><li>Tests d’intégration </li><li>Assistance technique des développeurs lors de problème liés au service appelés par les applications</li><li> Suivi des développements</li><li> Revue de code</li> <li>Suivi de la facturation</li></ul>",
+            "description": "<ul><li>Evolutif et correctif sur les applications natives Fortuneo </li><li>Tests unitaires JUnit au niveau des services </li><li>Tests d’intégration </li><li>Assistance technique des développeurs lors de problèmes liés au servicex appelés par les applications</li><li> Suivi des développements</li><li> Revue de code</li> <li>Suivi de la facturation</li></ul>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
+                    "label": "Eclipse"
             }, {
-                    "label": "Android",
-                    "weight": 4
+                    "label": "Android"
             }, {
                     "label": "iOS"
             }, {
@@ -134,11 +127,9 @@
             "goal": "Permettre aux utilisateurs du site Fortuneo de voir leur prélèvements en cours et de les clôturer leur mandat de prélèvement.",
             "description": "Conception,Développement",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
+                    "label": "Eclipse"
             }, {
-                    "label": "Java",
-                    "weight": 4
+                    "label": "Java"
             }, {
                     "label": "HTML"
             }, {
@@ -172,14 +163,12 @@
             "duration": "1 mois",
             "title": "Adaptation à une nouvelle loi de finance",
             "role": "Scrum master",
-            "goal": "Adaptation du site web à une nouvelle loi de finance, forcant les banques à afficher certains taux de rétrocession.",
-            "description": "<ul><li>Conception</li><li>Développement</li>",
+            "goal": "Adaptation du site web à une nouvelle loi de finance, demandant aux banques à afficher certains taux de rétrocession.",
+            "description": "<ul><li>Conception</li><li>Développement</li><li>Tests unitaires</li>",
             "tags": [{
-                    "label": "Java",
-                    "weight": 5
+                    "label": "Java"
             }, {
-                    "label": "HTML",
-                    "weight": 4
+                    "label": "HTML"
             }, {
                     "label": "CSS"
             }, {
@@ -206,13 +195,9 @@
             "title": "Refonte de pages boursières",
             "role": "Scrum master",
             "goal": "Offrir un nouvel affichage des pages boursières aux utilisateurs, avec une nouvelle organisation des informations, ainsi que de nouvelles sources d’informations à récupérer de notre fournisseur de flux.",
-            "description": "<li>Tests unitaires</li><li>Conception</li><li>Développement</li>",
+            "description": "<li>Conception</li><li>Développement</li><li>Intégration CSS</li><li>Tests unitaires</li>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
-                    "label": "Java",
-                    "weight": 4
+                    "label": "Java"
             }, {
                     "label": "HTML"
             }, {
@@ -233,6 +218,8 @@
                     "label": "ivy"
             }, {
                     "label": "ant"
+            }, {
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/wallstreet_charts.jpg", ""],
@@ -245,17 +232,15 @@
             "title": "Site JCMS Fortuneo Belgique",
             "role": "Conceptrice et développeuse",
             "goal": "Refondre le site Fortuneo Belgique, en particulier le CMS utilisé",
-            "description": "<li>Accompagnement du marketing pour déterminer les types de templates à mettre en place dans le CMS Mise en place des templates dans JCMS</li> <li>Développement des templates en html, css, freemarker, et controller </li><li>Intégration CSS </li><li>Formation des futurs contributeurs</li>",
+            "description": "<li>Accompagnement du marketing pour déterminer les types de templates à mettre en place dans le CMS </li><li>Mise en place des templates dans JCMS</li> <li>Développement des templates en html, css, freemarker, et des controller </li><li>Intégration CSS </li><li>Formation des futurs contributeurs</li>",
             "tags": [{
-                    "label": "JCMS",
-                    "weight": 4
+                    "label": "JCMS"
             }, {
                     "label": "HTML"
             }, {
                     "label": "JSON"
             }, {
-                    "label": "JavaScript",
-                    "weight": 4
+                    "label": "JavaScript"
             }, {
                     "label": "REST"
             }, {
@@ -271,8 +256,7 @@
             }, {
                     "label": "SnowIT"
             }, {
-                    "label": "Eclipse",
-                    "weight": 5
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/workstation_iphone.jpg", ""],
@@ -285,13 +269,11 @@
             "title": "Migration dans une nouvelle architecture technique d’un progiciel bancaire belge",
             "role": "Chef de projet",
             "goal": "",
-            "description": "<ul><li>Coordination des équipes d'intégration serveur, base de données, et automatisation pour la migration de l'architecture technique</li></ul>",
+            "description": "<ul><li>Coordination des équipes d'intégration serveur, réseaux, base de données, et automatisation pour la migration de l'architecture technique</li><li>Assistance des équipes d'intégration serveur pour les aider dans la migration du progiciel avec l'appui de l'éditeur du progiciel</li></ul>",
             "tags": [{
-                    "label": "Fronteo",
-                    "weight": 5
+                    "label": "Fronteo"
             }, {
-                    "label": "JBoss",
-                    "weight": 4
+                    "label": "JBoss"
             }, {
                     "label": "SnowIT"
             }, {
@@ -301,7 +283,7 @@
             }
             ],
             "images": ["images/workpace.jpg", ""],
-            "urls": [""]
+            "urls": []
     }, {
             "id": 9,
             "company": "ASI Informatique",
@@ -312,9 +294,6 @@
             "goal": "Refonte du site Arkéa pour obtenir un design plus proche de l’image de marque, accompagné d’un gestionnaire de contenu simple à utiliser mais permettant une grande liberté aux contributeurs, site en RWD.",
             "description": "<ul><li>Accompagnement des équipes projet dans le processus de choix des gabarits possibles</li><li> Conception</li> <li>Développement </li><li>Intégration CSS</li></ul>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
                     "label": "Java",
                     "weight": 4
             }, {
@@ -331,6 +310,8 @@
                     "label": "Java"
             }, {
                     "label": "JSP"
+            }, {
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/workstation_iphone.jpg", ""],
@@ -345,11 +326,7 @@
             "goal": "Création du site publique Arkéa Banque Privée.",
             "description": "<ul><li>Accompagnement des équipes projet dans le processus de choix des gabarits possibles</li><li> Conception</li><li> Développement</li><li> Intégration CSS </li></ul>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
-                    "label": "Java",
-                    "weight": 4
+                    "label": "Java"
             }, {
                     "label": "JCMS"
             }, {
@@ -360,6 +337,8 @@
                     "label": "GWT"
             }, {
                     "label": "Thrift"
+            }, {
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/office_desk.jpg", ""],
@@ -370,15 +349,11 @@
             "author": "Lynelria",
             "duration": "6 mois",
             "title": "Evolutions et corrections sur le gestionnaire de contenu et le frontal de site Arkéa",
-            "role": "Développeuse",
+            "role": "Scrum Master",
             "goal": "Amélioration des sites existants du Crédit Mutuel",
             "description": "<ul><li>Analyse d’anomalie </li><li>Conception</li><li> Développement</li><li>Intégration CSS</li> (avant refonte)</ul>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
-                    "label": "JCMS",
-                    "weight": 4
+                    "label": "JCMS"
             }, {
                     "label": "HTML"
             }, {
@@ -388,8 +363,9 @@
             }, {
                     "label": "JSP"
             }, {
-                    "label": "JavaScript",
-                    "weight": 4
+                    "label": "JavaScript"
+            }, {
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/tablet_man.jpg", ""],
@@ -405,8 +381,7 @@
             "goal": "Corriger des anomalies et faire évoluer la fonctionnalité des virements sur les sites web du Crédit Mutuel de Bretagne, Crédit mutuel du Sud ouest, et Crédit Mutuel du Massif central.",
             "description": "<ul><li>Analyse d’anomalie</li><li> Conception</li><li> Développement</li></ul>",
             "tags": [{
-                    "label": "Java",
-                    "weight": 4
+                    "label": "Java"
             }, {
                     "label": "Thrift"
             }, {
@@ -418,8 +393,7 @@
             }, {
                     "label": "ant"
             }, {
-                    "label": "Eclipse",
-                    "weight": 5
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/pen_paper.jpg", ""],
@@ -428,14 +402,13 @@
             "id": 5,
             "company": "ASI Informatique",
             "author": "Lynelria",
-            "duration": "",
+            "duration": "1 mois",
             "title": "TMA sur l’application GREF Iroise",
             "role": "Développeuse",
             "goal": "Améliorer une application servant à analyser les données de personnes",
             "description": "<ul><li>Analyse des performances</li><li>Mise en place de tests de charge</li> <li>Automatisation de tests fonctionnels avec Jmeter</li><li>Résolution des problèmes de performances (diminution du nombre d’accès à la base de données)</li><li>Correction d’anomalies mineures</li><li>Tests de non régression</li>",
             "tags": [{
-                    "label": "Struts",
-                    "weight": 4
+                    "label": "Struts"
             }, {
                     "label": "Java"
             }, {
@@ -447,8 +420,7 @@
             }, {
                     "label": "Maven"
             }, {
-                    "label": "Eclipse",
-                    "weight": 2
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/laptop.jpg", ""],
@@ -457,17 +429,15 @@
             "id": 4,
             "company": "ABAK Sytèmes",
             "author": "Lynelria",
-            "duration": "",
+            "duration": "1an",
             "title": "Automatisation des tests d’un logiciel de chiffrement",
             "role": "Développeuse ",
             "goal": "Faciliter les mises en production du logiciel en maximisant les tests de non régression de façon automatique",
             "description": "<ul><li>Analyse du besoin en terme de logiciel pour l’automatisation</li> <li>Rédaction des spécifications fonctionnelles et des exigences produit</li><li>Développement des tests automatisés à l’aide du logiciel TestComplete adaptés aux plateformes Windows XP, Vista, Seven (32 et 64 bits)</li><li>Mise en place d’une passerelle entre TestComplete et Salome TMF pour le lancement des tests</li>",
             "tags": [{
-                    "label": "Delphiscript",
-                    "weight": 5
+                    "label": "Delphiscript"
             }, {
-                    "label": "TestComplete",
-                    "weight": 4
+                    "label": "TestComplete"
             }, {
                     "label": "Salome TMF"
             }
@@ -478,17 +448,13 @@
             "id": 3,
             "company": "ABAK Sytèmes",
             "author": "Lynelria",
-            "duration": "",
+            "duration": "1an",
             "title": "Simulation d’une scène militaire en 3D",
             "role": "",
             "goal": "Refonte d’un logiciel de simulation 3D de scène militaire aérienne en java SWING et java3D",
             "description": "<ul><li>Implémentation d’un algorithme de zbuffer dans la simulation numérique et applications de lois physiques pour le calcul des points chauds</li><li>Réalisation d’objets VRML représentant une forme simplifiée d’objets de la scène Maintenance du logiciel</li></ul>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
-                    "label": "Java",
-                    "weight": 4
+                    "label": "Java"
             }, {
                     "label": "Swing"
             }, {
@@ -499,6 +465,8 @@
                     "label": "VRML"
             }, {
                     "label": "VisualStudio"
+            }, {
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/airport_parking_deck.jpg", ""],
@@ -513,15 +481,13 @@
             "goal": "Amélioration d’un gestionnaire de dialogue",
             "description": "<ul><li>Amélioration d’un agent conversationnel</li><li> Implémentation d’algorithmes de prise de décision et d’apprentissage afin de garantir une logique dans les échanges au cours du dialogue</li></ul>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
-                    "label": "Python",
-                    "weight": 4
+                    "label": "Python"
             }, {
                     "label": "Flex"
             }, {
                     "label": "Actionscript"
+            }, {
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/display_dummy.jpg", ""],
@@ -536,15 +502,13 @@
             "goal": "Découvrir des communauté à l’intérieur de graphes d’e-mails",
             "description": "<ul><li>Implémentation des modèles de classification décrits dans des articles d’Andrew Mc Callum</li><li> Mise en place de tests sur différentes base de données d’e-mails</li><li> Analyse des résultats, et réflexion sur les voies possibles d’amélioration du modèle en fonction de ceux ci</li></ul>",
             "tags": [{
-                    "label": "Eclipse",
-                    "weight": 5
-            }, {
-                    "label": "Java",
-                    "weight": 4
+                    "label": "Java"
             }, {
                     "label": "SWING"
             }, {
                     "label": "Octave"
+            }, {
+                    "label": "Eclipse"
             }
             ],
             "images": ["images/workpace.jpg", ""],
