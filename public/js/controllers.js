@@ -11,6 +11,7 @@ resumeControllers.controller('CubeController', ['$scope', '$http', '$location', 
 
             $('#skills-menu').removeClass("active");
             $('#presentation-menu').removeClass("active");
+            $('#projects-menu').removeClass("active");
         }
     });
 
@@ -22,6 +23,7 @@ resumeControllers.controller('CubeController', ['$scope', '$http', '$location', 
 
             $('#career-menu').removeClass("active");
             $('#presentation-menu').removeClass("active");
+            $('#projects-menu').removeClass("active");
         }
     });
 
@@ -30,6 +32,19 @@ resumeControllers.controller('CubeController', ['$scope', '$http', '$location', 
         handler: function (direction) {
             $('#presentation-menu').addClass("active");
 
+            $('#career-menu').removeClass("active");
+            $('#skills-menu').removeClass("active");
+            $('#projects-menu').removeClass("active");
+
+        }
+    });
+
+    var waypoint4 = new Waypoint({
+        element: document.getElementById('projects'),
+        handler: function (direction) {
+            $('#projects-menu').addClass("active");
+
+            $('#presentation-menu').removeClass("active");
             $('#career-menu').removeClass("active");
             $('#skills-menu').removeClass("active");
 
@@ -52,10 +67,15 @@ resumeControllers.controller('CubeController', ['$scope', '$http', '$location', 
         if ($scope.currentTag !== null && $scope.currentTag !== '') {
 
             for (var i = 0; i < project.tags.length; i++) {
+
+                if (project.tags[i].label === "C++" && $scope.currentTag === "cpp") {
+                    return true;
+                }
                 if (project.tags[i].label.match(new RegExp($scope.currentTag, "i"))) {
                     return true;
                 }
             }
+
 
             return false;
         } else {

@@ -16,6 +16,10 @@
             }, {
                     "label": "Agile"
             }, {
+                    "label": "AngularJS"
+            }, {
+                    "label": "NodeJS"
+            }, {
                     "label": "itunesConnect"
             }, {
                     "label": "JIRA"
@@ -47,7 +51,7 @@
             "goal": "Formation à NodeJS et AngularJS en préparation de la sortie du nouveau site Fortuneo en RWD",
             "description": "15 jours d’intégration à une équipe agile chez Xebia, permettant de découvrir les développements en cours et de s’y intégrer pendant 15 jours, puis formation intensive de 7 jours à NodeJS et AngularJS par Zenika.",
             "tags": [{
-                    "label": "Nodejs"
+                    "label": "NodeJs"
             }, {
                     "label": "AngularJS"
             }, {
