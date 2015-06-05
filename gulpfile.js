@@ -39,7 +39,7 @@ gulp.task('concat-js', function () {
 });
 
 
-gulp.task('css', function (concatCss) {
+gulp.task('css', function () {
     console.log('Launch task css');
     return sass(config.sassPath, {
             style: 'compressed',
