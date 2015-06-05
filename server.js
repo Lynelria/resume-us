@@ -10,7 +10,11 @@ var app = express();
 
 
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+
+var localhost = '127.0.0.1';
+//var localhost = '192.168.1.36';
+
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || localhost;
 
 
 var server = app.listen(server_port, server_ip_address, function () {
